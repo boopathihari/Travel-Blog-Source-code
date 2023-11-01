@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-blue {
+  background-color: #012d4e !important;
+  color: white;
+}
+
+.bg-teal {
+  background-color: #b2fff4;
+}
+
+.text-blue {
+  color: #012d4e !important;
+}
+
+.text-teal {
+  color: #b2fff4 !important
+}
+
+.text-white {
+  color: white !important;
+}
+
+.text-grey {
+  color: rgba(0, 0, 0, 0.6) !important
+}
+
+@font-face {
+  font-family: "merriweather";
+  src: url('/assets/fonts/Merriweather-Regular.ttf');
+}
+
+@font-face {
+  font-family: "merriweather-italic";
+  src: url('/assets/fonts/Merriweather-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url('/assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+.ms, .ms * {
+  font-family: "montserrat" !important;
+}
+
+.mwi, .mwi * {
+  font-family: 'merriweather-italic' !important;
+}
+
+.mw {
+  font-family: 'merriweather' !important;
+}
+
+.post p, .post li {
+  font-family: 'montserrat';
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.post h3 {
+  font-family: 'merriweather';
+  font-size: 1.2rem;
+  margin-top: 2vw
+}
+
+.post img {
+  width: 100% !important;
+  height: auto !important
+}
+
+.post figure {
+  margin: auto 0
+}
+
+.post figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: 'montserrat';
+}
+
+@font-face {
+  font-family: lora;
+  src: url('../assets/fonts/Lora-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: grandhotel;
+  src: url('../assets/fonts/GrandHotel-Regular.ttf');
+}
+
+.bg-lightblue {
+  background-color: #AEE8E2 !important;
+}
+
+.bg-darkblue {
+  background-color: #018891 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.text-lightblue {
+  color: #AEE8E2 !important;
+}
+
+.text-darkblue {
+  color: #018891 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.grandhotel {
+  font-family: grandhotel !important;
+}
+
+.lora {
+  font-family: lora !important;
+}
+
+.projectsCarousel .swiper-pagination-bullet {
+  background-color: #AEE8E2;
+}
+
+.projectsCarousel .swiper-pagination-bullet-active {
+  background-color: #018891;
+}
